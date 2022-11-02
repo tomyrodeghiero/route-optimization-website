@@ -38,8 +38,8 @@ const Header = ({ headerData, navData }) => {
       <Link href={"/"}>
         <a>
           <Image
-            src={`${header ? logoImgV2 : ""}`}
-            width={header ? 112.5 : ""}
+            src={`${header ? logoImgV2 : {}}`}
+            width={header ? 112.5 : {}}
             height={56.25}
             alt="Image"
           />
