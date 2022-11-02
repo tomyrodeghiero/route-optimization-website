@@ -27,11 +27,11 @@ const Footer = ({ footerData }) => {
           variants={footerTruckAnim}
           className="hidden lg:flex absolute -top-24 -left-[6.8%]"
         >
-          <Image src={truckImg} width={430} height={210} />
+          <Image src={truckImg} alt="Image" width={430} height={210} />
         </motion.div>
         {/* hill image */}
         <div className="hidden lg:flex absolute z-10 top-[22px] left-0">
-          <Image src={hillImg} width={137} height={92}></Image>
+          <Image src={hillImg} alt="Image" width={137} height={92}></Image>
         </div>
         {/*text & form */}
         <motion.div

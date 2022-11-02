@@ -23,7 +23,7 @@ const How = ({ howData }) => {
         >
           {/* image */}
           <motion.div variants={fadeInRight} className="flex-1">
-            <Image src={girlImg} width={720} height={678} />
+            <Image alt="Image" src={girlImg} width={720} height={678} />
           </motion.div>
           {/* text */}
           <motion.div variants={fadeInLeft} className="flex-1 flex justify-end">
